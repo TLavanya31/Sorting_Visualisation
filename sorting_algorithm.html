@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sorting Algorithms</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #444; }
+        select, button { margin: 10px 0; padding: 8px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>Sorting Algorithms Visualization</h1>
+    <p>Select a sorting algorithm to run:</p>
+    <select id="sorting-algorithm">
+        <option value="bubble_sort">Bubble Sort</option>
+        <option value="insertion_sort">Insertion Sort</option>
+        <option value="selection_sort">Selection Sort</option>
+        <option value="quick_sort">Quick Sort</option>
+        <option value="merge_sort">Merge Sort</option>
+        <option value="heap_sort">Heap Sort</option>
+    </select>
+    <button onclick="runSorting()">Run Visualization</button>
+
+    <script>
+        function runSorting() {
+            const algo = document.getElementById("sorting-algorithm").value;
+            alert("Run the Python script and select: " + algo);
+        }
+    </script>
+</body>
+</html>
