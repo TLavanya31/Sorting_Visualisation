@@ -53,13 +53,4 @@ Open the `sorting_algorithms.html` file in a web browser to:
 
 ---
 
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit a pull request. If you find any issues or have suggestions, please open an issue on the project's repository.
-
----
-
-## Acknowledgments
-
-Special thanks to the open-source community and contributors who helped shape the tools used in this project. The `matplotlib` library made the visualizations possible!
 
